@@ -1,0 +1,8 @@
+# robots.txt for Adam Seong — host root (adam-1228.github.io)
+# Project portfolio lives at: /adam-seong-portfolio/
+
+User-agent: *
+Allow: /
+
+# Sitemap location (same host, root)
+Sitemap: https://adam-1228.github.io/sitemap.xml
