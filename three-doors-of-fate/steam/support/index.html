@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Three Doors of Fate Steam 지원 및 문제 해결">
+  <title>Steam 지원 · Three Doors of Fate</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #0e1118; color: #e9e2d2; line-height: 1.65; }
+    main { width: min(880px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0 72px; }
+    h1, h2 { color: #d5ad62; line-height: 1.25; }
+    h1 { margin-bottom: 8px; }
+    h2 { margin-top: 36px; }
+    a { color: #7fd3ca; }
+    code { overflow-wrap: anywhere; color: #f3d28f; }
+    .summary { color: #c5ced6; }
+    .panel { padding: 18px 22px; border: 1px solid #5e5037; background: #171c26; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Three Doors of Fate — Steam 지원</h1>
+    <p class="summary">Windows 64-bit 및 macOS Universal 버전 1.0.5 기준 지원 안내입니다.</p>
+
+    <section class="panel">
+      <h2>오프라인 플레이와 Steam 서비스</h2>
+      <p>전체 싱글 플레이 게임과 로컬 저장은 Steam 플랫폼 서비스를 사용할 수 없을 때도 작동합니다. 도전 과제 보고와 클라우드 동기화는 다음 연결 때 다시 시도됩니다. 동기화 표시가 진행 중일 때 게임이나 Steam 클라이언트를 강제로 종료하지 마세요.</p>
+    </section>
+
+    <h2>저장 파일 위치</h2>
+    <p>기본 진행 파일 이름은 <code>steam-progress-v1.json</code>입니다.</p>
+    <ul>
+      <li>Windows: <code>%USERPROFILE%\AppData\LocalLow\ADAM\Three Doors of Fate\steam-progress-v1.json</code></li>
+      <li>macOS: <code>~/Library/Application Support/ADAM/Three Doors of Fate/steam-progress-v1.json</code></li>
+    </ul>
+    <p>직접 편집하지 마세요. 백업이 필요하면 먼저 게임을 종료하고 Steam의 동기화가 끝난 뒤 파일을 복사하세요. 서로 다른 컴퓨터에서 충돌 안내가 나타나면 파일 시각과 플레이한 기기를 확인한 뒤 최신 진행을 선택하세요.</p>
+
+    <h2>Windows 문제 해결</h2>
+    <ol>
+      <li>64비트 Windows 10 21H1 이상인지 확인합니다.</li>
+      <li>Steam의 설치 파일 무결성 확인을 실행합니다.</li>
+      <li>그래픽 드라이버를 갱신하고 DX11을 지원하는지 확인합니다.</li>
+      <li>화면이 잘리면 창 모드에서 1280×720 또는 1600×900으로 시작한 뒤 설정에서 해상도를 조정합니다.</li>
+      <li>F11은 전체 화면을 전환하고 Esc는 가장 위에 열린 메뉴를 닫습니다.</li>
+    </ol>
+
+    <h2>macOS 문제 해결</h2>
+    <ol>
+      <li>macOS 12.0 이상인지 확인합니다.</li>
+      <li>Steam의 설치 파일 무결성 확인을 실행한 뒤 Steam에서 앱을 다시 시작합니다.</li>
+      <li>첫 실행 보안 안내가 나타나면 앱 이름과 배포자를 확인하고 macOS의 정상 보안 절차를 따릅니다.</li>
+      <li>Intel 및 Apple Silicon이 포함된 Universal 앱이므로 별도 변환본을 내려받을 필요가 없습니다.</li>
+      <li>Retina 화면에서 글자가 작으면 1600×900 창 모드 또는 전체 화면을 비교해 주세요.</li>
+    </ol>
+
+    <h2>문의</h2>
+    <p>문제가 계속되면 운영체제와 버전, 게임 버전, 발생 화면, 재현 순서, 오류 문구를 적어 <a href="mailto:giha1205@gmail.com?subject=%5BThree%20Doors%20of%20Fate%20Steam%5D%20Support">giha1205@gmail.com</a>으로 보내 주세요. Steam 비밀번호, 결제 정보, 인증 코드는 보내지 마세요.</p>
+    <p><a href="../privacy/">Steam 개인정보처리 안내</a></p>
+
+    <hr>
+
+    <h2>English support</h2>
+    <p>The full single-player game and local saving remain available offline. Steam Achievements and Steam Cloud retry after the Steam service becomes available again.</p>
+    <p>On Windows, verify the installed files, update the graphics driver, and confirm a 64-bit Windows 10 21H1 or newer environment with DX11 support. On macOS, use macOS 12.0 or newer, verify the installed files, and launch the Universal app from Steam.</p>
+    <p>For help, email <a href="mailto:giha1205@gmail.com?subject=%5BThree%20Doors%20of%20Fate%20Steam%5D%20Support">giha1205@gmail.com</a> with the OS version, game version, screen where the issue occurred, reproduction steps, and exact error text. Do not send a password, payment information, or authentication code.</p>
+  </main>
+</body>
+</html>
